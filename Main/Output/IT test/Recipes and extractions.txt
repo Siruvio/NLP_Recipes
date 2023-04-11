@@ -1,0 +1,115 @@
+Arrosto in pentola di coccio
+Metti l'arrosto di manzo in una pentola di coccio. Mescolare insieme le miscele essiccate in una ciotola e cospargerle sull'arrosto. Versare l'acqua intorno all'arrosto. Cuocere a fuoco basso per 7-9 ore.
+
+Lenticchie e riso aromatizzati al curry
+Portare il brodo a bassa ebollizione. Aggiungere il curry e il sale. Cuocere le lenticchie per 20 minuti. Aggiungere il riso e cuocere a fuoco lento per 20 minuti.
+
+Ricetta zucca di ghianda ripiena di mirtilli rossi e mele
+Tagliate la zucca a metà e privatela dei semi. Metti la zucca nella teglia con il lato tagliato rivolto verso il basso. Versare 1/4 di pollice di acqua nel piatto. Cuocere per 30 minuti a 350° F. In una ciotola capiente unire gli ingredienti rimanenti. Togliere la zucca dal forno e farcire con il composto. Cuocere per altri 30-40 minuti fino a quando la zucca diventa tenera.
+
+Asparagi arrosto
+Preriscalda il forno a 425° F. Tagliare la parte inferiore legnosa degli asparagi e scartarla. Con un pelapatate, pelare la buccia sul fondo del gambo di 2-3 pollici. Disporre gli asparagi su una teglia foderata di alluminio e condire con olio d'oliva. Cospargere di sale. Con le mani, arrotolare gli asparagi finché non sono uniformemente ricoperti di olio e sale. Arrostisci per 10-15 minuti a seconda dello spessore dei gambi e di quanto ti piacciono teneri. Devono essere teneri se infilzati con la punta di un coltello. Le punte degli asparagi diventeranno molto marroni, ma tenetele sotto controllo per evitare che si brucino.
+
+Grande pizza notturna
+Aggiungere l'acqua calda al lievito in una ciotola capiente e lasciare riposare per 15 minuti. Mescolare l'olio, lo zucchero, il sale e la farina e lasciare riposare per 1 ora. Impastare la pasta e stenderla su una teglia. Stendere la salsa per pizza e cospargere di formaggio. Aggiungi eventuali condimenti opzionali come desideri. Cuocere a 400° F per 15 minuti.
+
+Quadrati Di Farina D'avena Ai Mirtilli
+Ripieno: In una casseruola portare ad ebollizione i mirtilli, lo zucchero e il succo d'arancia; ridurre il fuoco e cuocere a fuoco lento finché sono teneri per circa 10 minuti. Sbattere l'amido di mais con 2 cucchiai di acqua; frullare i mirtilli e far bollire mescolando fino a quando non si addensa per circa 1 minuto. Posizionare l'involucro di plastica direttamente sulla superficie; conservare in frigorifero fino a raffreddamento per circa 1 ora. In una ciotola capiente sbatti insieme l'avena, la farina, lo zucchero, la scorza d'arancia e il sale; con il frullatore per pasta taglia il burro fino a ottenere delle briciole grossolane. Premere metà in una tortiera di metallo foderata di carta pergamena quadrata da 8 pollici; spalmare con ripieno di mirtilli. Cuocere al centro del forno a 350° F fino a quando non diventa leggermente dorato per circa 45 minuti. Lasciare raffreddare sulla griglia prima di tagliare a quadrati.
+
+Insalata di pollo al curry
+Disporre il pollo in un unico strato in una pentola capiente. Aggiungi acqua fino a coprire appena. Portare a ebollizione a fuoco medio-alto. Capovolgi il pollo, riduci il fuoco a medio e fai sobbollire fino a cottura per altri 6 minuti circa. Far raffreddare. Mescolare la maionese con il succo di scorza di limone, il curry e il sale in una ciotola capiente. Usando due forchette, sminuzza il pollo, quindi mescolalo nella miscela di maionese con mango, mirtilli rossi, cipolle verdi e sedano.
+
+Biscotti di farina d'avena vecchio stile
+Cuocere a fuoco lento l'uvetta e l'acqua a fuoco medio fino a quando l'uvetta è paffuta per circa 15 minuti. Scolare l'uvetta preservando il liquido. Aggiungi abbastanza acqua al liquido preservato per misurare mezza tazza. Scaldare il forno a 400° F. Mescolare accuratamente accorciando lo zucchero, le uova e la vaniglia. Mescolare nel liquido preservato. Unire gli ingredienti rimanenti. Far cadere l'impasto a cucchiaini arrotondati a circa due pollici di distanza su una teglia non unta. Cuocere da 8 a 10 minuti o fino a quando diventano marrone chiaro.
+
+Yorkshire Pud di Mic
+Metti la farina e un po' di condimento in una ciotola capiente. Unire le uova una alla volta. Sbattere nel latte fino ad ottenere una pastella liscia. Mettere in frigo per almeno 30 minuti. Riscaldare il forno a 220° C. Versare l'olio nei fori di una teglia per muffin a 8 fori. Scaldare la teglia in forno per 5 minuti. Versare il composto di pastella nella teglia. Cuocere per 30 minuti fino a quando ben dorati e lievitati.
+
+
+TP - [Mettere, Manzo (Arrosto di manzo)]
+TP - [Mescolare, Miscele (Miscele essiccate)]
+TP - [Cospargere, Miscele (Miscele essiccate)]
+TP - [Versare, Acqua]
+
+TP - [Portare (Portare a bassa ebollizione), Brodo]
+TP - [Aggiungere, Curry]
+TP - [Aggiungere, Sale]
+TP - [Cuocere, Lenticchie]
+TP - [Aggiungere, Riso]
+TP - [Cuocere (cuocere a fuoco lento), Riso]
+
+TP - [Tagliare, Zucca]
+TP - [Privare (Privare dei semi), "-la" (Zucca)]
+TP - [Mettere, Zucca]
+TP - [Versare, Acqua (1/4 di pollice di acqua)]
+TP - [Unire, Ingredienti]
+TP - [Togliere, Zucca]
+TP - [Farcire, Zucca]
+
+TN - [Preriscaldare, Forno]
+TP - [Tagliare, Asparagi]
+TN - [Pelare, Asparagi (Buccia)]  ### Nessun modo per ricondurre "Buccia" ad "Asparagi"
+TP - [Disporre, Asparagi]
+TP - [Condire, Olio (Olio d'oliva)]
+TP - [Cospargere, Sale]
+TP - [Arrotolare, Asparagi]
+
+TP - [Aggiungere, Acqua (Acqua calda)]
+TP - [Mescolare, Olio]
+TP - [Mescolare, Zucchero]
+TP - [Mescolare, Sale]
+TP - [Mescolare, Farina]
+TP - [Impastare, Pasta]
+TP - [Stendere, Pasta ("-la")]
+TP - [Stendere, Salsa (Salsa per pizza)]
+TP - [Cospargere, Formaggio]
+TP - [Aggiungere, Condimenti (Condimenti opzionali)]
+
+TP - [Portare (Portare a ebollizione), Mirtilli]
+TP - [Portare (Portare a ebollizione), Zucchero]
+TP - [Portare (Portare a ebollizione), Succo (Succo d'arancia)]
+TN - [Ridurre, Fuoco]
+TP - [Sbattere, Mais (Amido di mais)]
+TP - [Frullare, Mirtilli]
+TP - [Bollire, Mirtilli]
+TN - [Posizionare, Involucro (Involucro di plastica)]
+TP - [Sbattere, Avena]
+TP - [Sbattere, Farina]
+TP - [Sbattere, Zucchero]
+TP - [Sbattere, Arancia (Scorza d'arancia)]
+TP - [Sbattere, Sale]
+TP - [Tagliare, Burro]
+TP - [Spalmare, Mirtilli (Ripieno di mirtilli)]
+
+TP - [Disporre, Pollo]
+TP - [Aggiungere, Acqua]
+TP - [Portare (Portare a ebollizione), Pollo]
+TP - [Capovolgere, Pollo]
+TN - [Ridurre, Fuoco]
+TP - [Sobbollire, Pollo]
+TP - [Mescolare, Maionese]
+TP - [Mescolare, Succo (Succo di scorza di limone)]
+TP - [Mescolare, Curry]
+TP - [Mescolare, Sale]
+TP - [Sminuzzare, Pollo]
+TP - [Mescolare, Pollo ("-lo")]
+
+TP - [Cuocere, Uvetta]
+TP - [Cuocere, Acqua]
+TP - [Scolare, Uvetta]
+TN - [Preservare, Liquido]
+TP - [Aggiungere, Acqua]
+TN - [Scaldare, Forno]
+TP - [Accorciare(?), Zucchero]
+TP - [Accorciare(?), Uova]
+TP - [Accorciare(?), Vaniglia]
+TP - [Unire, Ingredienti]
+TP - [Cadere (Far cadere), Impasto]
+
+TP - [Mettere, Farina]
+TP - [Mettere, Condimento]
+TP - [Unire, Uova]
+TN - [Riscaldare, Forno]
+TP - [Versare, Olio]
+TN - [Scaldare, Teglia]
+TP - [Versare, Composto (Composto di pastella)]

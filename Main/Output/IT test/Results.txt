@@ -1,0 +1,304 @@
+TP = Corretto e rilevato
+TN = Non corretto e non rilevato, oppure non corretto e marcato "Other"
+FP = Non corretto ma rilevato (e marcato con una categoria non "Other")
+FN = Corretto ma non rilevato, oppure corretto ma marcato "Other"
+
+Accuracy		= (TP+TN)	/ (TP+FP+FN+TN)
+Precision (Pr)	=  TP		/ (TP+FP)
+Recall (Re)		=  TP		/ (TP+FN)
+F1				= 2*Pr*Re	/ (Pr+Re)
+
+---RES_1 (it_core_news_sm)
+
+FP - [Metti - arrosto (arrosto di manzo)]							-Carne
+FN - [Mescolare, Miscele (Miscele essiccate)]
+FN - [Cospargere, Miscele (Miscele essiccate)]
+TP - [Versare - acqua (acqua)]										-Cibo
+
+TP - [portare - brodo (brodo a bassa ebollizione)]					-Piatto
+TP - [aggiungere - curry (curry)]									-Piatto
+TP - [aggiungere - sale (sale)]										-Ingrediente
+TP - [cuocera - lenticchia (lenticchie per minuti)]					-Erba
+TP - [aggiungere - riso (riso)]										-Granaglie
+FN - [Cuocere (cuocere a fuoco lento), Riso]
+
+FN - [Tagliate - zucca (zucca)]										-Other
+FN - [Privare (Privare dei semi), "-la" (Zucca)]
+FN - [Metti - zucca (zucca)]										-Other
+FN - [Versare, Acqua (1/4 di pollice di acqua)]
+TP - [unire - ingrediente (ingredienti rimanenti)]					-Ingrediente
+FN - [Togliere - zucca (zucca)]										-Other
+FN - [Farcire, Zucca]
+
+TN - [Preriscaldare, Forno]
+FN - [Preriscalda - parte (parte inferiore legnosa degli asparagi)]	-Other
+TN - [pelare - buccia (buccia sul fondo del gambo di pollici)]		-Other
+TP - [Disporre - asparago (asparagi su teglia foderata di alluminio)]-Erba
+FN - [Condire, Olio (Olio d'oliva)]
+FN - [Cospargere, Sale]
+FN - [arrotolare - asparagi (asparagi finchÃ ©)]					-Other
+TN - [piacere - asparagi (ti)]										-Other
+TN - [diventare - marrone (marroni)]								-Other
+
+TP - [Aggiungere - acqua (acqua calda al lievito)]					-Cibo
+FN - [mescolare - olio (olio)]										-Other
+TP - [mescolare - zucchero (zucchero)]								-Ingrediente
+TP - [mescolare - sale (sale)]										-Ingrediente
+TP - [mescolare - farina (farina)]									-Cibo
+FN - [Impastare - pasta (pasta)]									-Other
+FN - [Stendere, Pasta ("-la")]
+TP - [Stendere - salsa (salsa per pizza)]							-Ingrediente
+FP - [Stendere - formaggio (di formaggio)]							-Latticino
+TP - [aggiungi - condimento (eventuali condimenti opzionali)]		-Ingrediente
+TN - [cuocera - F (F)]												-Other
+
+TP - [portare - mirtillo (mirtilli)]								-Frutta
+TP - [portare - zucchero (zucchero)]								-Ingrediente
+FN - [portare - succo (succo d' arancia)]							-Other
+TN - [ridurre - fuoco (fuoco)]										-Other
+TN - [cuocere - © (finchÃ ©)]										-Other
+FN - [sbattere - amido (amido di mais)]								-Other
+TP - [frullare - mirtillo (mirtilli)]								-Frutta
+FN - [Bollire, Mirtilli]
+TN - [Posizionare - involucro (involucro di plastica direttamente sulla superficie)]														-Other
+FN - [Sbattere, Avena]
+FN - [Sbattere, Farina]
+FN - [Sbattere, Zucchero]
+FN - [Sbattere, Arancia (Scorza d'arancia)]
+FN - [Sbattere, Sale]
+TP - [tagliare - burro (burro)]										-Latticino
+TN - [premere - metÃ (metÃ   )]										-Other
+FN - [Spalmare, Mirtilli (Ripieno di mirtilli)]
+
+TP - [Disporre - pollo (pollo)] 									-Carne
+TP - [aggiungi - acqua (acqua)]										-Cibo
+FP - [riduci - pollo (pollo)]										-Carne
+FN - [Capovolgi, Pollo]
+TN - [riduci - fuoco (fuoco)]										-Other
+FN - [mescolare - maionese (maionese con succo di scorza di limone)]-Other
+FN - [Mescolare, Succo (Succo di scorza di limone)]
+FN - [Mescolare, Curry]
+FN - [Mescolare, Sale]
+TN - [Usando - forchetta (forchette)]								-Other
+TP - [sminuzzare - pollo (pollo)]									-Carne
+FN - [Mescolare, Pollo ("-lo")]
+FP - [Usando - mirtillo (mirtilli rossi)]							-Frutta
+TN - [Usando - cipolle (cipolle verdi)]								-Other
+
+FN - [cuocera - uvetto (uvetta)]									-Other
+TP - [cuocera - acqua (acqua a fuoco medio)]						-Cibo
+FN - [scolare - uvetto (uvetta)]									-Other
+TN - [preservare - liquido (liquido)]								-Other
+TP - [aggiungi - acqua (abbastanza acqua)]							-Cibo
+TN - [misurare - tazza (mezza tazza)]								-Other
+TN - [scaldare - forno (forno)]										-Other
+TP - [accorciare - zucchero (zucchero)]								-Ingrediente
+TP - [accorciare - uovo (uova)]										-Cibo
+TP - [accorciare - vaniglia (vaniglia)]								-Ingrediente
+TN - [Unire - rimanenti (rimanenti)]								-Other
+FN - [Unire, Ingredienti]
+FN - [cadere - impasto (impasto a cucchiaini a circa pollici di distanza su teglia non unta)]													-Other
+
+TP - [Metti - farina (farina)]										-Cibo
+FN - [Metti - poco (po' di condimento)]								-Other
+TP - [Unire - uovo (uova una alla volta)]							-Cibo
+TN - [ottenere - liscia (pastella liscia)]							-Other
+TN - [Riscaldare - forno (forno a °)]								-Other
+FN - [versare - olio (olio nei fori di teglia per muffin a fori)]	-Other
+TN - [scaldare - teglia (teglia in forno per minuti)]				-Other
+TP - [Versare - composto (composto)]								-Cibo
+
+
+---RES_2 (it_core_news_md)
+
+FP - [Metti - arrosto (arrosto di manzo)]							-Carne
+FN - [Mescolare, Miscele (Miscele essiccate)]
+FN - [Cospargere, Miscele (Miscele essiccate)]
+TP - [versare - acqua (acqua)]										-Cibo
+
+TP - [Portare - brodo (brodo)]										-Piatto
+TP - [aggiungere - curry (curry)]									-Piatto
+TP - [aggiungere - sale (sale)]										-Ingrediente
+TP - [cuocere - lenticchia (lenticchie per minuti)]					-Erba
+TP - [aggiungere - riso (riso)]										-Granaglie
+FN - [Cuocere (cuocere a fuoco lento), Riso]
+
+FN - [xx - zucca (zucca)]											-Other
+FN - [Privare (Privare dei semi), "-la" (Zucca)]
+FN - [Metti - zucca (zucca)]										-Other
+FN - [versare - pollice (di pollice di acqua)]						-Other
+TP - [unire - ingrediente (ingredienti rimanenti)]					-Ingrediente
+FN - [Togliere - zucca (zucca)]										-Other
+FN - [Farcire, Zucca]
+
+TN - [Preriscaldare, Forno]
+FN - [Tagliare - parte (parte inferiore legnosa degli asparagi)]	-Other
+TN - [pelare - buccia (buccia)]										-Other
+FN - [Disporre - asparagio (asparagi)]								-Other
+FN - [Condire, Olio (Olio d'oliva)]
+FN - [Cospargere, Sale]
+FN - [arrotolare - asparagio (asparagi)]							-Other
+
+TP - [aggiungere - acqua (acqua calda)]								-Cibo
+FN - [Mescolare - olio (olio)]										-Other
+TP - [Mescolare - zucchero (zucchero)]								-Ingrediente
+TP - [Mescolare - sale (sale)]										-Ingrediente
+TP - [Mescolare - farina (farina)]									-Cibo
+FN - [Impastare - pasta (pasta)]									-Other
+FN - [Stendere, Pasta ("-la")]
+TP - [stendere - salsa (salsa per pizza)]							-Ingrediente
+FN - [Cospargere, Formaggio]
+FN - [Aggiungere, Condimenti (Condimenti opzionali)]
+
+TP - [portare - mirtillo (mirtilli)]								-Frutta
+TP - [portare - zucchero (zucchero)]								-Ingrediente
+FN - [portare - succo (succo d' arancia)]							-Other
+TN - [ridurre - fuoco (fuoco)]										-Other
+FN - [sbattere - amido (amido di mais)]								-Other
+TP - [frullare - mirtillo (mirtilli)]								-Frutta
+FN - [Bollire, Mirtilli]
+TN - [posizionare - involucro (involucro di plastica)]				-Other
+TP - [sbatti - avena (avena)]										-Granaglie
+TP - [sbatti - farina (farina)]										-Cibo
+TP - [sbatti - zucchero (zucchero)]									-Ingrediente
+FN - [sbatti - scorza (scorza d' arancia)]							-Other
+TP - [sbatti - sale (sale)]											-Ingrediente
+TP - [tagliare - burro (burro)]										-Latticino
+FN - [Spalmare, Mirtilli (Ripieno di mirtilli)]
+
+TP - [Disporre - pollo (pollo)]										-Carne
+FN - [Aggiungere, Acqua]
+FN - [Portare (Portare a ebollizione), Pollo]
+TP - [Capovolgi - pollo (pollo)]									-Carne
+TN - [riducire - fuoco (fuoco)]										-Other
+FN - [Sobbollire, Pollo]
+FN - [mescolare - maionese (maionese con succo di scorza di limone)]-Other
+FN - [Mescolare, Succo (Succo di scorza di limone)]
+TP - [mescolare - curry (curry)]									-Piatto
+TP - [mescolare - sale (sale in ciotola capiente)]					-Ingrediente
+TN - [Usando - forchetta (forchette)]								-Other
+TP - [sminuzza - pollo (pollo)]										-Carne
+FN - [Mescolare, Pollo ("-lo")]
+
+FN - [cuocere - uvetto (uvetta)]									-Other
+TP - [cuocere - acqua (acqua a fuoco medio)]						-Cibo
+TP - [scolarere - uvetta (uvetta)]									-Frutta
+TN - [preservare - liquido (liquido)]								-Other
+TP - [aggiungi - acqua (abbastanza acqua)]							-Cibo
+TN - [misurare - tazza (mezza tazza)]								-Other
+TN - [scaldare - forno (forno)]										-Other
+TP - [accorciare - zucchero (zucchero)]								-Ingrediente
+TP - [accorciare - uovo (uova)]										-Cibo
+TP - [accorciare - vaniglia (vaniglia)]								-Ingrediente
+TP - [Unire - ingrediente (ingredienti rimanenti)]					-Ingrediente
+FN - [cadere - impasto (impasto)]									-Other
+
+TP - [Metti - farina (farina)]										-Cibo
+FN - [Metti - poco (po' di condimento)]								-Other
+TP - [unire - uovo (uova)]											-Cibo
+TN - [unire - uno (una alla volta)]									-Other
+FP - [ottenere - pastella (pastella liscia)]						-Cibo
+TN - [Riscaldare - forno (forno a °)]								-Other
+TN - [Riscaldare - C. (C.)]											-Other
+FN - [Versare - olio (olio)]										-Other
+TN - [scaldarere - teglia (teglia)]									-Other
+TP - [versare - composto (composto di pastella nella teglia)]		-Cibo
+
+
+---RES_3 (it_core_news_lg)
+
+FP - [Metti - arrosto (arrosto di manzo)]							-Carne
+FN - [Mescolare, Miscele (Miscele essiccate)]
+FN - [Cospargere, Miscele (Miscele essiccate)]
+TP - [Versare - acqua (acqua)]										-Cibo
+
+TP - [Portare - brodo (brodo)]										-Piatto
+TP - [Aggiungere - curry (curry)]									-Piatto
+TP - [Aggiungere - sale (sale)]										-Ingrediente
+TP - [Cuocere - lenticchia (lenticchie per minuti)]					-Erba
+TP - [Aggiungere - riso (riso)]										-Granaglie
+FN - [Cuocere (cuocere a fuoco lento), Riso]
+
+FN - [Tagliate - zucca (zucca)]										-Other
+FN - [Privare (Privare dei semi), "-la" (Zucca)]
+FN - [Metti - zucca (zucca)]										-Other
+FN - [Versare - pollice (di pollice di acqua)]						-Other
+TN - [Cuocere - F. (F.)]											-Other
+FN - [unire - ingrediento (ingredienti rimanenti)]					-Other
+FN - [Togliere - zucca (zucca)]										-Other
+FN - [Farcire, Zucca]
+
+TN - [Tagliare - forno (forno)]										-Other
+FN - [Tagliare - parte (parte inferiore legnosa degli asparagi)]	-Other
+TN - [pelare - buccia (buccia sul fondo del gambo di pollici)]		-Other
+TP - [Disporre - asparago (asparagi)]								-Erba
+FN - [Condire, Olio (Olio d'oliva)]
+FN - [Cospargere, Sale]
+TP - [arrotolare - asparago (asparagi)]								-Erba
+
+TP - [Aggiungere - acqua (acqua calda)]								-Cibo
+FN - [Mescolare - olio (olio)]										-Other
+TP - [Mescolare - zucchero (zucchero)]								-Ingrediente
+TP - [Mescolare - sale (sale)]										-Ingrediente
+TP - [Mescolare - farina (farina)]									-Cibo
+FN - [Impastare - pasta (pasta)]									-Other
+FN - [Stendere, Pasta ("-la")]
+TP - [Stendere - salsa (salsa per pizza)]							-Ingrediente
+FN - [Cospargere, Formaggio]
+FN - [Aggiungere, Condimenti (Condimenti opzionali)]
+
+TP - [portare - mirtillo (mirtilli)]								-Frutta
+TP - [portare - zucchero (zucchero)]								-Ingrediente
+FN - [portare - succo (succo d' arancia)]							-Other
+TN - [ridurre - fuoco (fuoco)]										-Other
+FN - [sbattere - amido (amido di mais)]								-Other
+TP - [frullare - mirtillo (mirtilli)]								-Frutta
+FN - [Bollire, Mirtilli]
+TN - [posizionare - involucro (involucro di plastica)]				-Other
+FN - [Sbattere, Avena]
+FN - [Sbattere, Farina]
+FN - [Sbattere, Zucchero]
+FN - [Sbattere, Arancia (Scorza d'arancia)]
+FN - [Sbattere, Sale]
+TP - [tagliare - burro (burro)]										-Latticino
+TN - [Premere - metÃ (metÃ   )]										-Other
+TN - [Lasciare - griglia (sulla griglia prima di a quadrati)]		-Other
+FN - [Spalmare, Mirtilli (Ripieno di mirtilli)]
+
+TP - [Disporre - pollo (pollo)]										-Carne
+TP - [Aggiungi - acqua (acqua)]										-Cibo
+FN - [Portare (Portare a ebollizione), Pollo]
+TP - [Capovolgi - pollo (pollo)]									-Carne
+TN - [riducere - fuoco (fuoco a medio)]								-Other
+FN - [Sobbollire, Pollo]
+FN - [mescolare - maionese (maionese)]								-Other
+FN - [Mescolare, Succo (Succo di scorza di limone)]
+FN - [Mescolare, Curry]
+FN - [Mescolare, Sale]
+TN - [Usando - forchetta (forchette)]								-Other
+TP - [sminuzzare - pollo (pollo)]									-Carne
+FN - [Mescolare, Pollo ("-lo")]
+
+TP - [Cuocere - uvetta (uvetta)]									-Frutta
+TP - [Cuocere - acqua (acqua a fuoco medio)]						-Cibo
+TP - [scolare - uvetta (uvetta)]									-Frutta
+TN - [preservare - liquido (liquido)]								-Other
+TP - [Aggiungi - acqua (abbastanza acqua)]							-Cibo
+TN - [misurare - tazza (mezza tazza)]								-Other
+TN - [Scaldare - forno (forno)]										-Other
+TN - [Scaldare - F. (F.)]											-Other
+TP - [accorciare - zucchero (zucchero)]								-Ingrediente
+TP - [accorciare - uovo (uova)]										-Cibo
+TP - [accorciare - vaniglia (vaniglia)]								-Ingrediente
+FN - [Unire - ingrediento (ingredienti rimanenti)]					-Other
+FN - [cadere - impasto (impasto)]									-Other
+
+TN - [Cuocere - da (da a minuti)]									-Other
+TP - [Metti - farina (farina)]										-Cibo
+FN - [Metti - poco (po' di condimento)]								-Other
+TP - [Unire - uovo (uova alla volta)]								-Cibo
+FP - [ottenere - pastella (pastella liscia)]						-Cibo
+TN - [Riscaldare - forno (forno)]									-Other
+FN - [versare - olio (olio)]										-Other
+FN - [Scaldare - teglia (teglia)]									-Other
+TP - [versare - composto (composto di pastella)]					-Cibo

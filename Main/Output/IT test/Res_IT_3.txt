@@ -1,0 +1,198 @@
+Reference dataset: support_corpus.json
+
+For [Metti - arrosto (arrosto di manzo)] categories are:
+-Carne(*)				: [2], Simil = 0.08333
+
+For [Versare - acqua (acqua)] categories are:
+-Cibo(*)				: [1], Simil = 0.5
+
+For [Portare - brodo (brodo)] categories are:
+-Piatto(*)				: [2], Simil = 0.07143
+
+For [Aggiungere - curry (curry)] categories are:
+-Piatto(*)				: [1], Simil = 0.07692
+-Cibo					: [3], Simil = 0.25
+
+For [Aggiungere - sale (sale)] categories are:
+-Ingrediente(*)			: [2], Simil = 0.09091
+
+For [Cuocere - lenticchia (lenticchie per minuti)] categories are:
+-Erba(*)				: [2], Simil = 0.06667
+
+For [Aggiungere - riso (riso)] categories are:
+-Granaglie(*)			: [1], Simil = 0.07692
+-Erba					: [2], Simil = 0.07692
+-Cibo					: [3], Simil = 0.09091
+
+For [Tagliate - zucca (zucca)] categories are:
+-Other
+
+For [Metti - zucca (zucca)] categories are:
+-Other
+
+For [Versare - pollice (di pollice di acqua)] categories are:
+-Other
+
+For [Cuocere - F. (F.)] categories are:
+-Other
+
+For [unire - ingrediento (ingredienti rimanenti)] categories are:
+-Other
+
+For [Togliere - zucca (zucca)] categories are:
+-Other
+
+For [Tagliare - forno (forno)] categories are:
+-Other
+
+For [Tagliare - parte (parte inferiore legnosa degli asparagi)] categories are:
+-Other
+
+For [pelare - buccia (buccia sul fondo del gambo di pollici)] categories are:
+-Other
+
+For [Disporre - asparago (asparagi)] categories are:
+-Erba(*)				: [1], Simil = 0.09091
+
+For [arrotolare - asparago (asparagi)] categories are:
+-Erba(*)				: [1], Simil = 0.09091
+
+For [Aggiungere - acqua (acqua calda)] categories are:
+-Cibo(*)				: [1], Simil = 0.5
+
+For [Mescolare - olio (olio)] categories are:
+-Other
+
+For [Mescolare - zucchero (zucchero)] categories are:
+-Ingrediente(*)			: [3], Simil = 0.08333
+
+For [Mescolare - sale (sale)] categories are:
+-Ingrediente(*)			: [2], Simil = 0.09091
+
+For [Mescolare - farina (farina)] categories are:
+-Cibo(*)				: [2], Simil = 0.33333
+
+For [Impastare - pasta (pasta)] categories are:
+-Other
+
+For [Stendere - salsa (salsa per pizza)] categories are:
+-Ingrediente(*)			: [3], Simil = 0.08333
+
+For [portare - mirtillo (mirtilli)] categories are:
+-Frutta(*)				: [3], Simil = 0.25
+
+For [portare - zucchero (zucchero)] categories are:
+-Ingrediente(*)			: [3], Simil = 0.08333
+
+For [portare - succo (succo d' arancia)] categories are:
+-Other
+
+For [ridurre - fuoco (fuoco)] categories are:
+-Other
+
+For [sbattere - amido (amido di mais)] categories are:
+-Other
+
+For [frullare - mirtillo (mirtilli)] categories are:
+-Frutta(*)				: [3], Simil = 0.25
+
+For [posizionare - involucro (involucro di plastica)] categories are:
+-Other
+
+For [tagliare - burro (burro)] categories are:
+-Latticino(*)			: [1], Simil = 0.5
+-Cibo					: [3], Simil = 0.25
+
+For [Premere - met√ (met√ † )] categories are:
+-Other
+
+For [Lasciare - griglia (sulla griglia prima di a quadrati)] categories are:
+-Other
+
+For [Disporre - pollo (pollo)] categories are:
+-Carne(*)				: [3], Simil = 0.07692
+
+For [Aggiungi - acqua (acqua)] categories are:
+-Cibo(*)				: [1], Simil = 0.5
+
+For [Capovolgi - pollo (pollo)] categories are:
+-Carne(*)				: [3], Simil = 0.07692
+
+For [riducere - fuoco (fuoco a medio)] categories are:
+-Other
+
+For [mescolare - maionese (maionese)] categories are:
+-Other
+
+For [Usando - forchetta (forchette)] categories are:
+-Other
+
+For [sminuzzare - pollo (pollo)] categories are:
+-Carne(*)				: [3], Simil = 0.07692
+
+For [Cuocere - uvetta (uvetta)] categories are:
+-Frutta(*)				: [3], Simil = 0.25
+
+For [Cuocere - acqua (acqua a fuoco medio)] categories are:
+-Cibo(*)				: [1], Simil = 0.5
+
+For [scolare - uvetta (uvetta)] categories are:
+-Frutta(*)				: [3], Simil = 0.25
+
+For [preservare - liquido (liquido)] categories are:
+-Other
+
+For [Aggiungi - acqua (abbastanza acqua)] categories are:
+-Cibo(*)				: [1], Simil = 0.5
+
+For [misurare - tazza (mezza tazza)] categories are:
+-Other
+
+For [Scaldare - forno (forno)] categories are:
+-Other
+
+For [Scaldare - F. (F.)] categories are:
+-Other
+
+For [accorciare - zucchero (zucchero)] categories are:
+-Ingrediente(*)			: [3], Simil = 0.08333
+
+For [accorciare - uovo (uova)] categories are:
+-Cibo(*)				: [2], Simil = 0.08333
+
+For [accorciare - vaniglia (vaniglia)] categories are:
+-Ingrediente(*)			: [2], Simil = 0.09091
+
+For [Unire - ingrediento (ingredienti rimanenti)] categories are:
+-Other
+
+For [cadere - impasto (impasto)] categories are:
+-Other
+
+For [Cuocere - da (da a minuti)] categories are:
+-Other
+
+For [Metti - farina (farina)] categories are:
+-Cibo(*)				: [2], Simil = 0.33333
+
+For [Metti - poco (po' di condimento)] categories are:
+-Other
+
+For [Unire - uovo (uova alla volta)] categories are:
+-Cibo(*)				: [2], Simil = 0.08333
+
+For [ottenere - pastella (pastella liscia)] categories are:
+-Cibo(*)				: [3], Simil = 0.25
+
+For [Riscaldare - forno (forno)] categories are:
+-Other
+
+For [versare - olio (olio)] categories are:
+-Other
+
+For [Scaldare - teglia (teglia)] categories are:
+-Other
+
+For [versare - composto (composto di pastella)] categories are:
+-Cibo(*)				: [2], Simil = 0.07692
+

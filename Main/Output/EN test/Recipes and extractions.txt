@@ -1,0 +1,114 @@
+Crock Pot Roast
+Place the roast beef in a crock pot. Mix the dried mixes together in a bowl and sprinkle over the roast. Pour the water around the roast. Cook on low heat for 7-9 hours.
+
+Curried Lentils and Rice
+Bring the broth to a low boil. Add curry powder and salt. Cook the lentils for 20 minutes. Add the rice and simmer for 20 minutes.
+
+Cranberry and Apple Stuffed Acorn Squash Recipe
+Cut the squash in half and remove the seeds. Place the squash cut-side down in the baking dish. Pour 1/4 inch of water into the dish. Bake for 30 minutes at 350° F. In a large bowl combine the remaining ingredients. Remove the squash from the oven and fill with the mixture. Bake for another 30-40 minutes until squash is tender.
+
+Roasted Asparagus
+Preheat oven to 425° F. Cut off the woody underside of the asparagus and discard. With a vegetable peeler, peel off the peel at the bottom of the stem for 2-3 inches. Arrange the asparagus on a foil-lined baking sheet and drizzle with the olive oil. Sprinkle with salt. With your hands, roll the asparagus until they are evenly coated in the oil and salt. Roast for 10-15 minutes depending on how thick the stalks are and how tender you like them. They should be tender when pierced with the tip of a knife. The tips of the asparagus will turn very brown, but watch them to prevent burning.
+
+Big Night Pizza
+Add the hot water to the yeast in a large bowl and let sit for 15 minutes. Mix in the oil, sugar, salt and flour and let sit for 1 hour. Knead the dough and spread it onto a pan. Spread the pizza sauce and sprinkle with cheese. Add any optional toppings as you wish. Bake at 400°F for 15 minutes.
+
+Blueberry Oatmeal Squares
+Filling: In a saucepan, bring the blueberries, sugar and orange juice to the boil; reduce heat and simmer until tender about 10 minutes. Whisk cornstarch with 2 tablespoons water; whisk in the cranberries and boil with stirring until thickened, about 1 minute. Place the plastic wrap directly on the surface; refrigerate until cooled about 1 hour. In a large bowl whisk together oats, flour, sugar, orange zest, and salt; with pastry blender, cut the butter into coarse crumbs. Press half into an 8-inch square parchment paper-lined metal cake pan; spread with blueberry filling. Bake in the center of a 350° F oven until light golden about 45 minutes. Leave to cool on the rack before cutting into squares.
+
+Curried chicken salad
+Arrange the chicken in a single layer in a large pot. Add water until just covering. Bring to a boil over medium-high heat. Flip the chicken, reduce the heat to medium, and simmer until cooked about 6 more minutes. Leave to cool. Stir the mayo with the lemon zest juice, curry and salt in a large bowl. Using two forks, shred the chicken, then stir it into the mayo mixture with mango, cranberries, green onions and celery.
+
+Old-Fashioned Oatmeal Cookies
+Simmer the raisins and water over medium heat until the raisins are plump about 15 minutes. Drain the raisins preserving the liquid. Add enough water to the preserved liquid to measure half a cup. Heat the oven to 400° F. Mix thoroughly by shortening sugar, eggs and vanilla. Stir into the preserved liquid. Blend in the remaining ingredients. Drop the dough by rounded teaspoonfuls about two inches apart onto an ungreased baking sheet. Bake 8 to 10 minutes or until light brown.
+
+Mic's Yorkshire Puds
+Place the flour and some seasoning in a large bowl. Add the eggs one at a time. Whisk in the milk until you get a smooth batter. Chill in the fridge for at least 30 minutes. Heat the oven to 220° C. Pour the oil into the holes of an 8-hole muffin tin. Heat the tin in the oven for 5 minutes. Ladle the batter mixture into the tin. Bake for 30 minutes until well browned and risen.
+
+
+TP - [Place, Beef (Roast beef)]
+TP - [Mix, Mixes (Dried mixes)]
+TP - [Sprinkle (Sprinkle over), Mixes (Dried mixes)]
+TP - [Pour, Water]
+
+TP - [Bring (Bring to low boil), Broth]
+TP - [Add, Curry (Curry powder)]
+TP - [Add, Salt]
+TP - [Cook, Lentil]
+TP - [Add, Rice]
+TP - [Simmer, Rice]
+
+TP - [Cut, Squash]
+TP - [Remove, Seeds]
+TP - [Place, Squash]
+TP - [Pour, Water (1/4 inch of water)]
+TP - [Combine, Ingredient (Remaining ingedients)]
+TP - [Remove, Squash]
+TP - [Fill, Squash]
+
+TN - [Preheat, Oven]
+TP - [Cut (cut off), Asparagus (wood underside of the asparagus)]
+TN - [Peel (Peel off), Peel (Peel of the asparagus' stem)]
+TP - [Arrange, Asparagus]
+TP - [Drizzle, Oil (Olive oil)]
+TP - [Sprinkle, Salt]
+TP - [Roll, Asparagus]
+
+TP - [Add, Water (Hot water)]
+TP - [Mix in, Oil]
+TP - [Mix in, Sugar]
+TP - [Mix in, Salt]
+TP - [Mix in, Flour]
+TP - [Knead, Dough]
+TP - [Spread, Dough (It)]
+TP - [Spread, Sauce (Pizza sauce)]
+TP - [Sprinkle, Cheese]
+TP - [Add, Topping (Optional topping)]
+
+TP - [Bring (Bring to the boil), Blueberries]
+TP - [Bring (Bring to the boil), Sugar]
+TP - [Bring (Bring to the boil), Juice (Orange juice)]
+TN - [Reduce, Heat]
+TP - [Whisk, Cornstach]
+TP - [Whisk in, Cranberries]
+TN - [Place, Wrap (Plastic wrap)]
+TP - [Whisk, Oats]
+TP - [Whisk, Flour]
+TP - [Whisk, Sugar]
+TP - [Whisk, Orange (Orange zets)]
+TP - [Whisk, Salt]
+TP - [Cut, Butter]
+TP - [Spread, Filling (Blueberry filling)]
+
+TP - [Arrange, Chicken]
+TP - [Add, Water]
+TP - [Bring (Bring to a boil), Water]
+TP - [Flip, Chicken]
+TN - [Reduce, Heat]
+TP - [Stir, Mayo]
+TP - [Stir, Juice (Lemon zest juice)]
+TP - [Stir, Curry]
+TP - [Stir, Salt]
+TP - [Shred, Chicken]
+TP - [Stir (Stir into), It (Chicken)]
+
+TP - [Simmer, Raisins]
+TP - [Simmer, Water]
+TP - [Drain, Raisins]
+TN - [Preserve, Liquid]
+TP - [Add, Water]
+TN - [Heat, Oven]
+TP - [Shortening, Sugar]
+TP - [Shortening, Eggs]
+TP - [Shortening, Vanilla]
+TP - [Blend in, Ingredients]
+TP - [Drop, Dough]
+
+TP - [Place, Flour]
+TP - [Place, Seasoning]
+TP - [Add, Eggs]
+TP - [Whisk in, Milk]
+TN - [Heat, Oven]
+TP - [Pour, Oil]
+TN - [Heat, Tin]
+TP - [Ladle, Mixture (Batter mixture)]

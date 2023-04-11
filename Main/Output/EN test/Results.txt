@@ -1,0 +1,403 @@
+TP = Corretto e rilevato
+TN = Non corretto e non rilevato, oppure non corretto e marcato "Other"
+FP = Non corretto ma rilevato (e marcato con una categoria non "Other")
+FN = Corretto ma non rilevato, oppure corretto ma marcato "Other"
+
+Accuracy		= (TP+TN)	/ (TP+FP+FN+TN)
+Precision (Pr)	=  TP		/ (TP+FP)
+Recall (Re)		=  TP		/ (TP+FN)
+F1				= 2*Pr*Re	/ (Pr+Re)
+
+---RES_1 (en_core_web_sm)
+
+TP - [place - beef (roast beef)]					-Meat
+TP - [mix - mix (mixes)]							-Food
+FP - [sprinkle - roast (roast)]						-Meat
+TP - [pour - water (water)]							-Food
+
+TP - [bring - broth (broth)]						-Dish
+TP - [add - curry (curry powder)]					-Dish
+TP - [add - salt (salt)]							-Ingredient
+TP - [cook - lentil (lentils for 20 minutes)]		-Vegetable
+TP - [add - rice (rice)]							-Grain
+FN - [Simmer, Rice]
+
+TP - [cut - squash (squash)]						-Vegetable
+TP - [remove - seed (seeds)]						-Fruit
+FP - [place - cut (squash cut side)]				-Meat
+FN - [xx - inch (1/4 inch of water)]				-Other
+TP - [combine - ingredient (ingredients)]			-Food
+TP - [remove - squash (squash)]						-Vegetable
+FN - [Fill, Squash]
+
+TN - [Preheat, Oven]
+FN - [Cut - woody (woody)]							-Other
+TN - [peel - peel (peel)]							-Other
+TP - [arrange - asparagus (asparagus)]				-Herb
+FN - [Drizzle, Oil (Olive oil)]
+FN - [Sprinkle, Salt]
+TP - [roll - asparagus (asparagus)]					-Herb
+FP - [like - asparagus (them)]						-Herb
+FP - [watch - asparagus (them)]						-Herb
+
+TP - [add - water (hot water)]						-Food
+FN - [Mix in, Oil]
+FN - [Mix in, Sugar]
+FN - [Mix in, Salt]
+FN - [Mix in, Flour]
+TP - [knead - dough (dough)]						-Food
+TP - [spread - dough (it)]							-Food
+FP - [spread - pizza (pizza sauce)]					-Dish
+FN - [Sprinkle, Cheese]
+FN - [add - topping (optional toppings)]			-Other
+
+TP - [bring - blueberry (blueberries)]				-Fruit
+TP - [bring - sugar (sugar)]						-Ingredient
+FP - [bring - orange (orange juice)]				-Fruit
+TN - [reduce - heat (heat)]							-Other
+TN - [reduce - simmer (simmer)]						-Other
+FN - [Whisk, Cornstach]
+FN - [Whisk in, Cranberries]
+FP - [place - wrap (plastic wrap)]					-Dish
+FN - [Whisk, Oats]
+FN - [Whisk, Flour]
+FN - [Whisk, Sugar]
+FN - [Whisk, Orange (Orange zets)]
+FN - [Whisk, Salt]
+TP - [cut - butter (butter)]						-Dairy_product
+TN - [spread - half (half)]							-Other
+TN - [xx - minute (about 45 minutes)]				-Other
+
+TP - [arrange - chicken (chicken)]					-Meat
+TP - [add - water (water)]							-Food
+FN - [Bring (Bring to a boil), Water]
+TP - [flip - chicken (chicken)]						-Meat
+TN - [reduce - heat (heat)]							-Other
+TN - [cook - minute (about 6 more minutes)]			-Other
+TP - [stir - mayo (mayo)]							-Ingredient
+FN - [Stir, Juice (Lemon zest juice)]
+FN - [Stir, Curry]
+FN - [Stir, Salt]
+TN - [use - fork (two forks)]						-Other
+TP - [shre - chicken (chicken)]						-Meat
+TP - [stir - chicken (it)]							-Meat
+
+TP - [simmer - raisin (raisins)]					-Fruit
+TP - [simmer - water (water over medium heat)]		-Food
+TN - [simmer - minute (about 15 minutes)]			-Other
+TP - [drain - raisin (raisins liquid)]				-Fruit
+TN - [preserve - liquid (liquid)]					-Other
+TP - [add - water (enough water)]					-Food
+FP - [measure - cup (cup)]							-Beverage
+TN - [heat - oven (oven)]							-Other
+TN - [heat - F. (F. Mix)]							-Other
+FN - [Shortening, Sugar]
+FN - [Shortening, Eggs]
+FN - [Shortening, Vanilla]
+FN - [Blend in, Ingredients]
+TP - [drop - dough (dough)]							-Food
+TN - [drop - inch (about two inches apart)]			-Other
+TN - [xx - minute (8 to 10 minutes)]				-Other
+
+TP - [place - flour (flour)]						-Food
+TP - [place - seasoning (seasoning in large bowl)]	-Ingredient
+TP - [add - egg (eggs)]								-Food
+TN - [add - one (one)]								-Other
+FP - [get - batter (smooth batter)]					-Food
+TN - [heat - oven (oven)]							-Other
+FN - [pour - oil (oil)]								-Other
+TN - [heat - tin (tin)]								-Other
+TP - [ladle - mixture (batter mixture)]				-Food
+
+
+---RES_2 (en_core_web_md)
+
+TP - [place - roast (roast beef)]					-Meat
+TP - [mix - mix (mixes)]							-Food
+FP - [sprinkle - roast (roast)]						-Meat
+TP - [pour - water (water around roast)]			-Food
+
+TP - [bring - broth (broth)]						-Dish
+TP - [add - curry (curry powder)]					-Dish
+TP - [add - salt (salt)]							-Ingredient
+TP - [cook - lentil (lentils for 20 minutes)]		-Vegetable
+TP - [add - rice (rice)]							-Grain
+FN - [Simmer, Rice]
+
+TP - [cut - squash (squash)]						-Vegetable
+TP - [remove - seed (seeds)]						-Fruit
+TP - [place - squash (squash cut side)]				-Vegetable
+FN - [xx - inch (1/4 inch of water)]				-Other
+TP - [combine - ingredient (ingredients)]			-Food
+TP - [remove - squash (squash)]						-Vegetable
+FN - [Fill, Squash]
+
+TN - [oven - woody (woody)]							-Other
+FN - [Cut (cut off), Asparagus (wood underside of the asparagus)]
+TN - [peel - peel (peel)]							-Other
+TP - [arrange - asparagus (asparagus)]				-Herb
+FN - [Drizzle, Oil (Olive oil)]
+FN - [Sprinkle, Salt]
+TP - [roll - asparagus (asparagus)]					-Herb
+TN - [prevent - burning (burning)]					-Other
+
+TP - [add - water (hot water)]						-Food
+FN - [Mix in, Oil]
+FN - [Mix in, Sugar]
+FN - [Mix in, Salt]
+FN - [Mix in, Flour]
+TP - [Knead - dough (dough)]						-Food
+TP - [spread - dough (it)]							-Food
+FP - [Spread - pizza (pizza sauce)]					-Dish
+FN - [Sprinkle, Cheese]
+FN - [add - topping (optional toppings)]			-Other
+FN - [add - pizza (you)]							-Dish
+
+TP - [bring - blueberry (blueberries)]				-Fruit
+TP - [bring - sugar (sugar)]						-Ingredient
+FP - [bring - orange (orange juice)]				-Fruit
+TN - [reduce - heat (heat)]							-Other
+FN - [Whisk, Cornstach]
+FN - [Whisk in, Cranberries]
+TN - [place - plastic (plastic wrap)]				-Other
+TP - [whisk together - oats (oats)]					-Grain
+TP - [whisk together - flour (flour)]				-Food
+TP - [whisk together - sugar (sugar)]				-Ingredient
+TP - [whisk together - orange (orange zest)]		-Fruit
+TP - [whisk together - salt (salt)]					-Ingredient
+TP - [cut - butter (butter)]						-Dairy_product
+FN - [Spread, Filling (Blueberry filling)]
+TN - [xx - minute (about 45 minutes)]				-Other
+
+TP - [arrange - chicken (chicken)]					-Meat
+TP - [add - water (water)]							-Food
+FN - [Bring (Bring to a boil), Water]
+TP - [flip - chicken (chicken)]						-Meat
+TN - [reduce - heat (heat)]							-Other
+TP - [stir - mayo (mayo)]							-Ingredient
+FN - [Stir, Juice (Lemon zest juice)]
+FN - [Stir, Curry]
+FN - [Stir, Salt]
+TN - [use - fork (two forks)]						-Other
+TP - [shre - chicken (chicken)]						-Meat
+TP - [stir - chicken (it)]							-Meat
+
+TP - [simmer - raisin (raisins)]					-Fruit
+TP - [simmer - water (water over medium heat)]		-Food
+TP - [drain - raisin (raisins liquid)]				-Fruit
+TN - [preserve - liquid (liquid)]					-Other
+TP - [add - water (enough water)]					-Food
+FP - [measure - cup (cup)]							-Beverage
+TN - [heat - oven (oven)]							-Other
+TP - [shorten - sugar (sugar)]						-Ingredient
+TP - [shorten - egg (eggs)]							-Food
+TP - [shorten - vanilla (vanilla)]					-Ingredient
+FN - [Blend in, Ingredients]
+TP - [drop - dough (dough)]							-Food
+
+TP - [place - flour (flour)]						-Food
+FN - [Place, Seasoning]
+TP - [add - egg (eggs)]								-Food
+FN - [Whisk in, Milk]
+FP - [get - batter (smooth batter)]					-Food
+TN - [heat - oven (oven)]							-Other
+FN - [pour - oil (oil)]								-Other
+TN - [heat - tin (tin)]								-Other
+TP - [ladle - mixture (batter mixture)]				-Food
+
+
+---RES_3 (en_core_web_lg)
+
+TP - [place - roast (roast beef)]					-Meat
+FN - [mix - together (together in bowl)]			-Other
+FP - [sprinkle - roast (roast)]						-Meat
+TP - [pour - water (water around roast)]			-Food
+
+TP - [bring - broth (broth)]						-Dish
+TP - [add - curry (curry powder)]					-Dish
+TP - [add - salt (salt)]							-Ingredient
+TP - [cook - lentil (lentils for 20 minutes)]		-Vegetable
+TP - [add - rice (rice)]							-Grain
+FN - [Simmer, Rice]
+
+TP - [cut - squash (squash)]						-Vegetable
+TP - [remove - seed (seeds)]						-Fruit
+TP - [place - squash (squash cut side)]				-Vegetable
+FN - [pour - inch (1/4 inch of water into dish)]	-Other
+TP - [combine - ingredient (ingredients)]			-Food
+TP - [remove - squash (squash)]						-Vegetable
+FN - [Fill, Squash]
+
+TN - [Preheat, Oven]
+FN - [xx - underside (woody underside of asparagus)]-Other
+TN - [peel - peel (peel)]							-Other
+TP - [arrange - asparagus (asparagus)]				-Herb
+FN - [Drizzle, Oil (Olive oil)]
+FN - [Sprinkle, Salt]
+TP - [roll - asparagus (asparagus)]					-Herb
+FP - [depend - asparagus (them)]					-Herb
+TN - [prevent - burning (burning)]					-Other
+
+TP - [add - water (hot water)]						-Food
+FN - [Mix in, Oil]
+FN - [Mix in, Sugar]
+FN - [Mix in, Salt]
+FN - [Mix in, Flour]
+TP - [knead - dough (dough)]						-Food
+TP - [spread - dough (it)]							-Food
+FP - [spread - pizza (pizza sauce)]					-Dish
+FN - [spread - with (with cheese)]					-Other
+FN - [add - topping (optional toppings)]			-Other
+FP - [add - pizza (you)]							-Dish
+TN - [add - with (you)]								-Other
+
+TP - [bring - blueberry (blueberries)]				-Fruit
+TP - [bring - sugar (sugar)]						-Ingredient
+FP - [bring - orange (orange juice)]				-Fruit
+TN - [reduce - heat (heat)]							-Other
+FN - [Whisk, Cornstach]
+FN - [Whisk in, Cranberries]
+TN - [place - plastic (plastic wrap)]				-Other
+TP - [whisk - oats (oats)]							-Grain
+TP - [whisk - flour (flour)]						-Food
+TP - [whisk - sugar (sugar)]						-Ingredient
+TP - [whisk - orange (orange zest)]					-Fruit
+TP - [whisk - salt (salt)]							-Ingredient
+TP - [cut - butter (butter)]						-Dairy_product
+FN - [Spread, Filling (Blueberry filling)]
+
+TP - [arrange - chicken (chicken)]					-Meat
+TP - [add - water (water)]							-Food
+FN - [Bring (Bring to a boil), Water]
+TP - [flip - chicken (chicken)]						-Meat
+TN - [reduce - heat (heat)]							-Other
+TN - [cook - minute (about 6 more minutes)]			-Other
+TP - [stir - mayo (mayo)]							-Ingredient
+FN - [Stir, Juice (Lemon zest juice)]
+FN - [Stir, Curry]
+FN - [Stir, Salt]
+TN - [use - fork (two forks)]						-Other
+TP - [shred - chicken (chicken)]					-Meat
+TP - [stir - chicken (it)]							-Meat
+
+TP - [simmer - raisin (raisins)]					-Fruit
+TP - [simmer - water (water over medium heat)]		-Food
+TP - [drain - raisin (raisins liquid)]				-Fruit
+TN - [preserve - liquid (liquid)]					-Other
+TP - [add - water (enough water)]					-Food
+FP - [measure - cup (cup)]							-Beverage
+TN - [heat - oven (oven)]							-Other
+FN - [Shortening, Sugar]
+FN - [Shortening, Eggs]
+FN - [Shortening, Vanilla]
+FN - [Blend in, Ingredients]
+TP - [drop - dough (dough)]							-Food
+
+TP - [place - flour (flour)]						-Food
+TP - [place - seasoning (seasoning in large bowl)]	-Ingredient
+TP - [add - egg (eggs)]								-Food
+TN - [add - one (one at time)]						-Other
+FP - [get - batter (smooth batter)]					-Food
+TN - [heat - oven (oven)]							-Other
+FN - [pour - oil (oil)]								-Other
+TN - [heat - tin (tin)]								-Other
+FP - [xx - batter (batter mixture)]					-Food
+FN - [Ladle, Mixture (Batter mixture)]
+
+
+---RES_4 (en_core_web_trf)
+
+TP - [place - roast (roast beef)]						-Meat
+TP - [mix - mix (mixes)]								-Food
+FP - [sprinkle - roast (roast)]							-Meat
+TP - [pour - water (water)]								-Food
+
+TP - [bring - broth (broth)]							-Dish
+TP - [add - curry (curry powder)]						-Dish
+TP - [add - salt (salt)]								-Ingredient
+TP - [cook - lentil (lentils)]							-Vegetable
+TP - [add - rice (rice)]								-Grain
+FN - [Simmer, Rice]
+
+TP - [cut - squash (squash)]							-Vegetable
+TP - [remove - seed (seeds)]							-Fruit
+TP - [place - squash (squash)]							-Vegetable
+FN - [pour - inch (1/4 inch of water)]					-Other
+TP - [combine - ingredient (ingredients)]				-Food
+TP - [remove - squash (squash)]							-Vegetable
+FN - [Fill, Squash]
+
+TN - [preheat - oven (oven)]							-Other
+FN - [cut - underside (woody underside of asparagus)]	-Other
+TP - [arrange - asparagus (asparagus)]					-Herb
+FN - [Drizzle, Oil (Olive oil)]
+FN - [Sprinkle, Salt]
+TP - [roll - asparagus (asparagus)]						-Herb
+FP - [like - asparagus (them)]							-Herb
+FP - [watch - asparagus (them)]							-Herb
+TN - [prevent - burning (burning)]						-Other
+
+TP - [add - water (hot water)]							-Food
+FN - [mix - oil (oil)]									-Other
+TP - [mix - sugar (sugar)]								-Ingredient
+TP - [mix - salt (salt)]								-Ingredient
+TP - [mix - flour (flour)]								-Food
+TP - [knead - dough (dough)]							-Food
+TP - [spread - dough (it)]								-Food
+FP - [spread - pizza (pizza sauce)]						-Dish
+FN - [Sprinkle, Cheese]
+FN - [add - topping (optional toppings)]				-Other
+
+TP - [bring - blueberry (blueberries)]					-Fruit
+TP - [bring - sugar (sugar)]							-Ingredient
+TP - [bring - orange (orange juice)]					-Fruit
+TN - [reduce - heat (heat)]								-Other
+FN - [whisk - cornstarch (cornstarch)]					-Other
+TP - [whisk in - cranberry (cranberries)]				-Fruit
+FP - [place - wrap (plastic wrap)]						-Dish
+TP - [whisk together - oats (oats)]						-Grain
+TP - [whisk together - flour (flour)]					-Food
+TP - [whisk together - sugar (sugar)]					-Ingredient
+TP - [whisk together - orange (orange zest)]			-Fruit
+TP - [whisk together - salt (salt)]						-Ingredient
+TP - [cut - butter (butter)]							-Dairy_product
+TN - [press - half (half)]								-Other
+FN - [Spread, Filling (Blueberry filling)]
+
+TP - [arrange - chicken (chicken)]						-Meat
+TP - [add - water (water)]								-Food
+FN - [Bring (Bring to a boil), Water]
+TP - [flip - chicken (chicken)]							-Meat
+TN - [reduce - heat (heat)]								-Other
+FN - [Stir, Mayo]
+FP - [stir - lemon (mayo with lemon zest juice)]		-Fruit
+TP - [stir - curry (curry)]								-Dish
+TP - [stir - salt (salt)]								-Ingredient
+TN - [use - fork (two forks)]							-Other
+TP - [shred - chicken (chicken)]						-Meat
+TP - [stir - chicken (it)]								-Meat
+
+TP - [simmer - raisin (raisins)]						-Fruit
+TP - [simmer - water (water)]							-Food
+TP - [drain - raisin (raisins)]							-Fruit
+TN - [preserve - liquid (liquid)]						-Other
+TP - [add - water (enough water to liquid to cup)]		-Food
+FP - [measure - cup (cup)]								-Beverage
+TN - [heat - oven (oven)]								-Other
+TN - [heat - ° (400 °)]									-Other
+TP - [shorten - sugar (sugar)]							-Ingredient
+TP - [shorten - egg (eggs)]								-Food
+TP - [shorten - vanilla (vanilla)]						-Ingredient
+TP - [blend in - ingredient (ingredients)]				-Food
+TP - [drop - dough (dough)]								-Food
+
+TP - [place - flour (flour)]							-Food
+TP - [place - seasoning (seasoning)]					-Ingredient
+TP - [add - egg (eggs)]									-Food
+TP - [whisk in - milk (milk)]							-Beverage
+FP - [get - batter (smooth batter)]						-Food
+TN - [heat - oven (oven)]								-Other
+TN - [heat - 220 (220 °)]								-Other
+FN - [pour - oil (oil)]									-Other
+TN - [heat - tin (tin)]									-Other
+TP - [ladle - batter (batter mixture)]					-Food

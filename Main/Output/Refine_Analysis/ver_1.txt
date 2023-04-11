@@ -1,0 +1,223 @@
+Reference dataset: Dataset
+
+For [place - beef (the roast beef)] categories are:
+-Meat(*)				: [1], Simil = 0.04762
+-Food					: [2], Simil = 0.05
+
+For [mix - mix (the dried mixes)] categories are:
+-Food(*)				: [3], Simil = 0.25
+
+For [sprinkle - roast (the roast)] categories are:
+-Meat(*)				: [2], Simil = 0.33333
+-Food					: [3], Simil = 0.125
+
+For [pour - water (the water)] categories are:
+-Food(*)				: [1], Simil = 0.16667
+
+For [bring - broth (the broth)] categories are:
+-Dish(*)				: [2], Simil = 0.07143
+-Food					: [4], Simil = 0.2
+
+For [add - powder (curry powder and salt)] categories are:
+-Other
+
+For [cook - lentil (the lentils)] categories are:
+-Herb					: [2], Simil = 0.06667
+-Vegetable(*)			: [2], Simil = 0.33333
+-Fruit					: [3], Simil = 0.06667
+-Food					: [4], Simil = 0.11111
+
+For [add - rice (the rice)] categories are:
+-Grain(*)				: [1], Simil = 0.1
+-Food					: [3], Simil = 0.25
+-Herb					: [4], Simil = 0.07143
+
+For [cut - squash (the squash)] categories are:
+-Vegetable(*)			: [1], Simil = 0.07143
+-Food					: [3], Simil = 0.08333
+
+For [remove - seed (the seeds)] categories are:
+-Fruit(*)				: [1], Simil = 0.5
+
+For [place - squash (the squash)] categories are:
+-Vegetable(*)			: [1], Simil = 0.07143
+-Food					: [3], Simil = 0.08333
+
+For [pour - inch (1/4 inch of water)] categories are:
+-Other
+
+For [combine - ingredient (the remaining ingredients)] categories are:
+-Food(*)				: [2], Simil = 0.125
+
+For [remove - squash (the squash)] categories are:
+-Vegetable(*)			: [1], Simil = 0.07143
+-Food					: [3], Simil = 0.08333
+
+For [preheat - oven (oven)] categories are:
+-Other
+
+For [cut - underside (the woody underside of the asparagus)] categories are:
+-Other
+
+For [peel - peel (the peel at the bottom of the stem)] categories are:
+-Other
+
+For [arrange - asparagus (the asparagus)] categories are:
+-Herb(*)				: [1], Simil = 0.5
+-Vegetable				: [1], Simil = 0.07143
+-Food					: [3], Simil = 0.08333
+
+For [roll - asparagus (the asparagus)] categories are:
+-Herb(*)				: [1], Simil = 0.5
+-Vegetable				: [1], Simil = 0.07143
+-Food					: [3], Simil = 0.08333
+
+For [like - they (them)] categories are:
+-Other
+
+For [watch - they (them)] categories are:
+-Other
+
+For [prevent - burning (burning)] categories are:
+-Other
+
+For [add - water (the hot water)] categories are:
+-Food(*)				: [1], Simil = 0.16667
+
+For [mix - oil (the oil , sugar , salt and flour)] categories are:
+-Other
+
+For [knead - dough (the dough)] categories are:
+-Food(*)				: [3], Simil = 0.25
+
+For [spread - it (it)] categories are:
+-Other
+
+For [spread - sauce (the pizza sauce)] categories are:
+-Ingredient(*)			: [3], Simil = 0.07692
+-Food					: [5], Simil = 0.16667
+
+For [add - topping (any optional toppings)] categories are:
+-Other
+
+For [bring - blueberry (the blueberries , sugar and orange juice)] categories are:
+-Fruit(*)				: [3], Simil = 0.07692
+-Food					: [4], Simil = 0.07692
+
+For [reduce - heat (heat)] categories are:
+-Other
+
+For [whisk - cornstarch (cornstarch)] categories are:
+-Other
+
+For [whisk in - cranberry (the cranberries)] categories are:
+-Fruit(*)				: [2], Simil = 0.07692
+-Food					: [4], Simil = 0.07692
+
+For [place - wrap (the plastic wrap)] categories are:
+-Dish(*)				: [3], Simil = 0.1
+-Food					: [5], Simil = 0.07692
+
+For [whisk together - oats (oats , flour , sugar , orange zest , and salt)] categories are:
+-Grain(*)				: [1], Simil = 0.05882
+-Food					: [3], Simil = 0.06667
+-Herb					: [4], Simil = 0.2
+
+For [cut - butter (the butter)] categories are:
+-Dairy_product(*)		: [1], Simil = 0.5
+-Food					: [1], Simil = 0.25
+
+For [press - half (half)] categories are:
+-Other
+
+For [arrange - chicken (the chicken)] categories are:
+-Meat(*)				: [3], Simil = 0.25
+-Food					: [4], Simil = 0.11111
+
+For [add - water (water)] categories are:
+-Food(*)				: [1], Simil = 0.16667
+
+For [flip - chicken (the chicken)] categories are:
+-Meat(*)				: [3], Simil = 0.25
+-Food					: [4], Simil = 0.11111
+
+For [reduce - heat (the heat)] categories are:
+-Other
+
+For [stir - mayo (the mayo with the lemon zest juice , curry and salt)] categories are:
+-Ingredient(*)			: [5], Simil = 0.06667
+-Food					: [7], Simil = 0.125
+
+For [use - fork (two forks)] categories are:
+-Other
+
+For [shred - chicken (the chicken)] categories are:
+-Meat(*)				: [3], Simil = 0.25
+-Food					: [4], Simil = 0.11111
+
+For [stir - it (it)] categories are:
+-Other
+
+For [simmer - raisin (the raisins and water)] categories are:
+-Fruit(*)				: [3], Simil = 0.25
+-Food					: [4], Simil = 0.11111
+
+For [drain - raisin (the raisins)] categories are:
+-Fruit(*)				: [3], Simil = 0.25
+-Food					: [4], Simil = 0.11111
+
+For [preserve - liquid (the liquid)] categories are:
+-Other
+
+For [add - water (enough water to measure half a cup)] categories are:
+-Food(*)				: [1], Simil = 0.16667
+
+For [measure - cup (half a cup)] categories are:
+-Beverage(*)			: [4], Simil = 0.09091
+-Food					: [5], Simil = 0.1
+
+For [heat - oven (the oven)] categories are:
+-Other
+
+For [heat - F. (400 ° F.)] categories are:
+-Other
+
+For [shorten - sugar (sugar , eggs and vanilla)] categories are:
+-Ingredient(*)			: [3], Simil = 0.07692
+-Food					: [5], Simil = 0.16667
+
+For [blend in - ingredient (the remaining ingredients)] categories are:
+-Food(*)				: [2], Simil = 0.125
+
+For [drop - dough (the dough)] categories are:
+-Food(*)				: [3], Simil = 0.25
+
+For [place - flour (the flour and some seasoning)] categories are:
+-Food(*)				: [2], Simil = 0.33333
+
+For [add - egg (the eggs)] categories are:
+-Food(*)				: [2], Simil = 0.08333
+
+For [whisk in - milk (the milk)] categories are:
+-Beverage(*)			: [1], Simil = 0.5
+-Dairy_product			: [1], Simil = 0.5
+-Food					: [2], Simil = 0.33333
+
+For [get - batter (a smooth batter)] categories are:
+-Food(*)				: [3], Simil = 0.1
+
+For [heat - oven (the oven)] categories are:
+-Other
+
+For [heat - C. (220 ° C.)] categories are:
+-Other
+
+For [pour - oil (the oil)] categories are:
+-Other
+
+For [heat - tin (the tin)] categories are:
+-Other
+
+For [ladle - mixture (the batter mixture)] categories are:
+-Food(*)				: [2], Simil = 0.2
+
