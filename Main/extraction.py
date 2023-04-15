@@ -6,8 +6,6 @@ import spacy
 from spacy.tokens import Doc, Span, Token
 import nltk
 from nltk.corpus import wordnet as wn
-
-import time
 import datetime
 
 
@@ -300,10 +298,10 @@ def __get_obj_hypernames(dobj: str, language: str) -> [(str, int)]:
     return hyper_list
 
 
-# Input: language = a string containing one of the supported languages in the constrains
-# Input: category = a string containing one of the supported categories in the constrains
+# Input: language = a string containing one of the supported languages in the constraints
+# Input: category = a string containing one of the supported categories in the constraints
 # Input: dobj = an ExtractedObject with the direct object to be examined
-# Input: hypers = a list of tuples string-integer, containing all the possibles hypernyms of the dobj, an the depth
+# Input: hypers = a list of tuples string-integer, containing all the possibles hypernyms of the dobj, and the depth
 #        at which they were found
 # Output: None, as all confirmed categories are saved in the dobj
 def check_category(language: str, category: str, dobj: ExtractedObject, hypers: [(str, int)]) -> None:
@@ -343,57 +341,3 @@ def flavour_text(language: str, code: str, extra="") -> None:
         print(string.format(extra))
     else:
         print(string)
-
-
-if __name__ == "__main__":
-    # print(f"Start time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    categ = "Food"
-
-    # corpus_name = "Dataset/Meals and their recipes to follow in cooking/json_data.json"   # 9 entries
-    # corpus_name = "Dataset/test_corpus_EN.json"
-    corpus_name = "Dataset/test_corpus_IT.json"
-    # corpus_name = "Dataset/Food Recipe dataset/json_data.json"                            # 82k entries
-    # corpus_name = "Dataset/Recipe Ingredients and Reviews/json_data.json"                 # 12.3k entries
-    # corpus_name = "Dataset/Christmas Recipes/json_data.json"                              # 1.6k entries
-
-    # lng = "EN4"
-    # lng = "IT3"
-
-    # results_name = "Output/Res_EN"
-    # results_name = "test_res"
-    # results_name = "long_res"
-    # results_name = "Output/Refine_Analysis/ver_5"
-
-    '''
-    # st_t = time.time()
-    recipe_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
-                  silent=False, info_loop=2500, multi_out=False, verb_out=True)
-
-    # et_t = time.time()
-    # elapsed_time_t = et_t - st_t
-    # pr_time_t = time.strftime('%H:%M:%S', time.gmtime(elapsed_time_t)) + "." + str(elapsed_time_t).split(".")[1][:3]
-
-    # print(f"End time: {datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    # print(f"---Execution time of elaboration: {pr_time_t}\n")
-    '''
-
-    rng_IT = range(1, 4)
-    rng_EN = range(1, 5)
-    for i in rng_IT:
-
-        # lng = f"EN{i}"
-        # results_name = f"Res_EN_{i}"
-
-        lng = f"IT{i}"
-        results_name = f"Res_IT_{i}"
-
-        # st_t = time.time()
-        recipe_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
-                          multi_out=True, verb_out=False)
-        # et_t = time.time()
-        # elapsed_time_t = et_t - st_t
-        # pr_time_t = time.strftime('%H:%M:%S', time.gmtime(elapsed_time_t)) +
-        # "." + str(elapsed_time_t).split(".")[1][:3]
-
-        # print(f"---Execution time of elaboration {i}: {pr_time_t}\n")
-    #'''

@@ -38,7 +38,49 @@ recipe_extraction(corpus, language, category, results_name_file, silent, info_lo
 È possibile estendere il progetto perché copra domini diversi da quelli presenti o lavori in lingue differenti da quelle implementate. In entrambi i casi, le modifiche devono essere apportate nel file "constants.py".
 
 Per aggiungere una nuova lingua non supportata, aggiungere una nuova voce al dizionario LANG, usando come identificatore un codice a due lettere per la lingua (esempi presenti sono EN per l'inglese e IT per l'italiano) seguito da un numero progressivo (in modo da poter impostare più versioni per la stessa lingua). Gli attributi da inserire suano gli identificatori "spaCy" e "nltk" e sono, rispettivamente, il nome della pipeline spaCy per la lingua e l'attributo linguistico per OMW.
+```
+LANG = {
+    "EN1": {
+        "spaCy": "en_core_web_sm",
+        "nltk": "eng"
+    },
+    [...],
+    "nuova_lingua1": {
+        "spaCy": "pipeline_spacy",
+        "nltk": "identificatore_nltk",
+    }
+}
+```
 
 Per aggiungere una nuova lingua ad un dominio esistente, assicurarsi prima di tutto che tale lingua esista nel dizionario LANG. Dopodiché, aggiungere un nuovo dizionario all'interno del dominio esistente (CATEGORIES è un dizionario di dizionari, dove il livello superiore sono i diversi domini, mentre l'inferioe le singole lingue), usando come identificatore lo stesso della lingua (senza numero progressivo) presente in LANG. Si consiglia di verificare i lemmi riconosciuti da WordNet.
+```
+CATEGORIES = {
+    "Food": {
+        "EN": [...],
+        "IT": [...],
+        "nuova_lingua_per_il_dominio_senza_numero_progressivo": [
+            "categoria_1",
+            "categoria_2",
+            [...],
+            "categoria_n"
+        ]
+    }
+}
+```
 
 Per aggiungere un dominio completamente nuovo, la procedura è simile alla precedente, ma va aggiunto un dizionario in CATEGORIES dal livello superiore. Una volta creato un nuovo dizionario, con identificatore pari al nome da utilizzare per il dominio, aggiungere un sotto-dizionario apposito per la lingua in cui si vuole effettuare l'analisi secondo le regole riportate sopra.
+```
+CATEGORIES = {
+    "Food": {
+        [...]
+    },
+    "nuovo_dominio": {
+        "lingua_senza_numero_progressivo": [
+            "categoria_1",
+            "categoria_2",
+            [...],
+            "categoria_n"
+        ]
+    }
+}
+```

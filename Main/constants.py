@@ -30,8 +30,7 @@ CATEGORIES = {
             "Verdura",          # Vegetable
             "Cibo"              # Food
         ]
-    },
-
+    }
 }
 
 LANG = {
