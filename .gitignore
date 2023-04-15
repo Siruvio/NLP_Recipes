@@ -15066,3 +15066,51 @@
 /venv/Scripts/transformers-cli.exe
 /venv/pip-selfcheck.json
 /venv/pyvenv.cfg
+/Main/Dataset/Christmas Recipes/indexdir/_MAIN_1.toc
+/Main/Dataset/Christmas Recipes/indexdir/MAIN_v6x4crlvf7o2b7mr.seg
+/Main/Dataset/Christmas Recipes/indexdir/MAIN_WRITELOCK
+/Main/Dataset/Christmas Recipes/__init__.py
+/Main/Dataset/Christmas Recipes/dataset_formatter.py
+/Main/Dataset/Christmas Recipes/dictTotal.npy
+/Main/Dataset/Christmas Recipes/json_data.json
+/Main/Dataset/Christmas Recipes/output.bin
+/Main/Dataset/Christmas Recipes/output.magnitude
+/Main/Dataset/Christmas Recipes/output.txt
+/Main/Dataset/Christmas Recipes/recipes.json
+/Main/Dataset/Food Recipe dataset/indexdir/_MAIN_1.toc
+/Main/Dataset/Food Recipe dataset/indexdir/MAIN_4bwtfo57x6rxc6tf.seg
+/Main/Dataset/Food Recipe dataset/indexdir/MAIN_WRITELOCK
+/Main/Dataset/Food Recipe dataset/__init__.py
+/Main/Dataset/Food Recipe dataset/dataset_formatter.py
+/Main/Dataset/Food Recipe dataset/dictTotal.npy
+/Main/Dataset/Food Recipe dataset/json_data.json
+/Main/Dataset/Food Recipe dataset/output.bin
+/Main/Dataset/Food Recipe dataset/output.magnitude
+/Main/Dataset/Food Recipe dataset/output.txt
+/Main/Dataset/Food Recipe dataset/recipes_82k.csv
+/Main/Dataset/Meals and their recipes to follow in cooking/indexdir/_MAIN_1.toc
+/Main/Dataset/Meals and their recipes to follow in cooking/indexdir/MAIN_WRITELOCK
+/Main/Dataset/Meals and their recipes to follow in cooking/indexdir/MAIN_wvlkgctxyo6vrv96.seg
+/Main/Dataset/Meals and their recipes to follow in cooking/__init__.py
+/Main/Dataset/Meals and their recipes to follow in cooking/dataset_formatter.py
+/Main/Dataset/Meals and their recipes to follow in cooking/dictTotal.npy
+/Main/Dataset/Meals and their recipes to follow in cooking/dishes and recipes.csv
+/Main/Dataset/Meals and their recipes to follow in cooking/json_data.json
+/Main/Dataset/Meals and their recipes to follow in cooking/output.bin
+/Main/Dataset/Meals and their recipes to follow in cooking/output.magnitude
+/Main/Dataset/Meals and their recipes to follow in cooking/output.txt
+/Main/Dataset/Recipe Ingredients and Reviews/indexdir/_MAIN_1.toc
+/Main/Dataset/Recipe Ingredients and Reviews/indexdir/MAIN_WRITELOCK
+/Main/Dataset/Recipe Ingredients and Reviews/indexdir/MAIN_xv4qfcch4b998a2q.seg
+/Main/Dataset/Recipe Ingredients and Reviews/__init__.py
+/Main/Dataset/Recipe Ingredients and Reviews/clean_recipes.csv
+/Main/Dataset/Recipe Ingredients and Reviews/dataset_formatter.py
+/Main/Dataset/Recipe Ingredients and Reviews/dictTotal.npy
+/Main/Dataset/Recipe Ingredients and Reviews/json_data.bin
+/Main/Dataset/Recipe Ingredients and Reviews/json_data.json
+/Main/Dataset/Recipe Ingredients and Reviews/json_data.magnitude
+/Main/Dataset/Recipe Ingredients and Reviews/output.bin
+/Main/Dataset/Recipe Ingredients and Reviews/output.magnitude
+/Main/Dataset/Recipe Ingredients and Reviews/output.txt
+/Main/Dataset/test_corpus_EN.json
+/Main/Dataset/test_corpus_IT.json

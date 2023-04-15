@@ -16,13 +16,13 @@ import datetime
 #        under file constants.py
 # Input: category = classification category to use during processing. Must be in CONS.CATEGORIES under file constants.py
 # Input: results_name_file = name and/or path to the results file. Must not include the file extension
-# Input: silent = enable/disable flavour text during processing. Default: False
-# Input: info_loop = used only if not silent, every how many cycles print looping flavour texts. Default: 1000
+# Input: silent = enable/disable supportive text during processing. Default: False
+# Input: info_loop = used only if not silent, every how many cycles print the looping support texts. Default: 1000
 # Input: multi_out = return in output two different files, one verbose (txt file) and one structured for further
 #        analysis (json file). Default: False
 # Input: verb_out = considered only if multi_out is False. Select which output you want: "False" for file strict for
 #        analysis (json one), or "True" for verbose file (txt one). Default: False
-def spacy_extraction(corpus: str, language: str, category: str, results_name_file: str,
+def recipe_extraction(corpus: str, language: str, category: str, results_name_file: str = "Output/output",
                      silent: bool = False, info_loop: int = 1000,
                      multi_out: bool = False, verb_out: bool = False) -> None:
     # Consistency checks
@@ -366,8 +366,8 @@ if __name__ == "__main__":
 
     '''
     # st_t = time.time()
-    spacy_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
-                     silent=False, info_loop=2500, multi_out=False, verb_out=True)
+    recipe_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
+                  silent=False, info_loop=2500, multi_out=False, verb_out=True)
 
     # et_t = time.time()
     # elapsed_time_t = et_t - st_t
@@ -388,8 +388,8 @@ if __name__ == "__main__":
         results_name = f"Res_IT_{i}"
 
         # st_t = time.time()
-        spacy_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
-                         multi_out=True, verb_out=False)
+        recipe_extraction(corpus=corpus_name, language=lng, category=categ, results_name_file=results_name,
+                          multi_out=True, verb_out=False)
         # et_t = time.time()
         # elapsed_time_t = et_t - st_t
         # pr_time_t = time.strftime('%H:%M:%S', time.gmtime(elapsed_time_t)) +
